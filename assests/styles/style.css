@@ -13,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    max-height: 100vh;
+    min-height: 100vh;
 } 
 
 setcion {
@@ -41,6 +41,45 @@ fieldset > div {
 
 .input-wrapper {
     flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding:12px;
+    border: var(--border);
+    border-radius: 15px;
+}
+
+.input-form, button {
+    all: unset;
+}
+
+button {
+    background-color: #F48F56;
+    padding: 12px 20px;
+    border-radius: 15px;
+    font: 900 16px 'roboto', sans-serif;
+    color: black;
+}
+
+
+button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+fieldset legend, section h2 {
+    font: 700 16px/140% 'roboto', sans-serif;
+    color: #e1e1e6;
+    padding-bottom: 16px;
+}
+
+.lista-participantes {
+    padding: 20px 0;
+}
+
+.lista-participantes > div {
+    border: var(--border);
+    border-radius: 8px;
 }
 
 table {
