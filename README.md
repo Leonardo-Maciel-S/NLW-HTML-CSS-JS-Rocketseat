@@ -3,3 +3,5 @@ Intensivo de HTML, CSS, JAVASCRIPT Feito na Rocketseat, onde nele desenvolvi uma
 Criado lógicas em JavaScript onde aprendi novas técnicas e funções.
 
 Ensino sobre estrutura do HTML, seletores em CSS, lógica em JS
+
+O pojeto esta na pasta master.
